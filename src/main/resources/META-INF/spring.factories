@@ -1,0 +1,6 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.gxf.gxfframework.initializer.UserBeanScanInitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.gxf.gxfframework.config.WebConfig,\
+com.gxf.gxfframework.config.HandlerConfig
